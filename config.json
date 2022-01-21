@@ -1,0 +1,372 @@
+{
+  "repositories": [{
+    "name": "tree-sitter/tree-sitter-bash",
+    "targets": {
+      "baseName": "TreeSitterBash",
+      "treeSitterFunctionName": "bash"
+    }
+  }, {
+    "name": "tree-sitter/tree-sitter-c",
+    "targets": {
+      "baseName": "TreeSitterC",
+      "treeSitterFunctionName": "c"
+    }
+  }, {
+    "name": "tree-sitter/tree-sitter-c-sharp",
+    "targets": {
+      "baseName": "TreeSitterCSharp",
+      "treeSitterFunctionName": "c_sharp"
+    }
+  }, {
+    "name": "tree-sitter/tree-sitter-cpp",
+    "targets": {
+      "baseName": "TreeSitterCPP",
+      "treeSitterFunctionName": "cpp"
+    }
+  }, {
+    "name": "tree-sitter/tree-sitter-css",
+    "targets": {
+      "baseName": "TreeSitterCSS",
+      "treeSitterFunctionName": "css"
+    }
+  }, {
+    "name": "elixir-lang/tree-sitter-elixir",
+    "targets": {
+      "baseName": "TreeSitterElixir",
+      "treeSitterFunctionName": "elixir"
+    }
+  }, {
+    "name": "tree-sitter/tree-sitter-go",
+    "targets": {
+      "baseName": "TreeSitterGo",
+      "treeSitterFunctionName": "go"
+    }
+  }, {
+    "name": "tree-sitter/tree-sitter-java",
+    "targets": {
+      "baseName": "TreeSitterJava",
+      "treeSitterFunctionName": "java"
+    }
+  }, {
+    "name": "tree-sitter/tree-sitter-javascript",
+    "targets": {
+      "baseName": "TreeSitterJavaScript",
+      "treeSitterFunctionName": "javascript"
+    }
+  }, {
+    "name": "tree-sitter/tree-sitter-jsdoc",
+    "targets": {
+      "baseName": "TreeSitterJSDoc",
+      "treeSitterFunctionName": "jsdoc"
+    }
+  }, {
+    "name": "tree-sitter/tree-sitter-json",
+    "targets": {
+      "baseName": "TreeSitterJSON",
+      "treeSitterFunctionName": "json"
+    }
+  }, {
+    "name": "tree-sitter/tree-sitter-php",
+    "targets": {
+      "baseName": "TreeSitterPHP",
+      "treeSitterFunctionName": "php"
+    }
+  }, {
+    "name": "tree-sitter/tree-sitter-python",
+    "targets": {
+      "baseName": "TreeSitterPython",
+      "treeSitterFunctionName": "python"
+    }
+  }, {
+    "name": "tree-sitter/tree-sitter-regex",
+    "targets": {
+      "baseName": "TreeSitterRegex",
+      "treeSitterFunctionName": "regex"
+    }
+  }, {
+    "name": "tree-sitter/tree-sitter-ruby",
+    "targets": {
+      "baseName": "TreeSitterRuby",
+      "treeSitterFunctionName": "ruby"
+    }
+  }, {
+    "name": "tree-sitter/tree-sitter-rust",
+    "targets": {
+      "baseName": "TreeSitterRust",
+      "treeSitterFunctionName": "rust"
+    }
+  }, {
+    "name": "tree-sitter/tree-sitter-html",
+    "targets": [{
+      "name": "TreeSitterHTML",
+      "files": [{
+        "filePath": "src/parser.c",
+        "sourceFilePath": "src/parser.c"
+      }, {
+        "filePath": "src/scanner.cc",
+        "sourceFilePath": "src/scanner.cc"
+      }, {
+        "filePath": "src/tag.h",
+        "sourceFilePath": "src/tag.h"
+      }, {
+        "filePath": "src/tree_sitter",
+        "sourceFilePath": "src/tree_sitter"
+      }, {
+        "filePath": "include/public.h",
+        "template": "public.h",
+        "variables": {
+          "name": "html"
+        }
+      }]
+    }, {
+      "name": "TreeSitterHTMLQueries",
+      "files": [{
+        "filePath": "queries",
+        "sourceFilePath": "queries"
+      }, {
+        "filePath": "Query.swift",
+        "template": "Query.swift",
+        "scannedDirectoryPath": "queries"
+      }]
+    }]
+  }, {
+    "name": "ikatyang/tree-sitter-markdown",
+    "targets": [{
+      "name": "TreeSitterMarkdown",
+      "files": [{
+        "filePath": "src/parser.c",
+        "sourceFilePath": "src/parser.c"
+      }, {
+        "filePath": "src/scanner.cc",
+        "sourceFilePath": "src/scanner.cc"
+      }, {
+        "filePath": "src/tree_sitter",
+        "sourceFilePath": "src/tree_sitter"
+      }, {
+        "filePath": "src/tree_sitter_markdown",
+        "sourceFilePath": "src/tree_sitter_markdown"
+      }, {
+        "filePath": "include/public.h",
+        "template": "public.h",
+        "variables": {
+          "name": "markdown"
+        }
+      }]
+    }]
+  }, {
+    "name": "tree-sitter/tree-sitter-ocaml",
+    "targets": [{
+      "name": "TreeSitterOCaml",
+      "files": [{
+        "filePath": "common",
+        "sourceFilePath": "common"
+      }, {
+        "filePath": "ocaml/src/parser.c",
+        "sourceFilePath": "ocaml/src/parser.c"
+      }, {
+        "filePath": "ocaml/src/scanner.cc",
+        "sourceFilePath": "ocaml/src/scanner.cc"
+      }, {
+        "filePath": "ocaml/src/tree_sitter",
+        "sourceFilePath": "ocaml/src/tree_sitter"
+      }, {
+        "filePath": "include/public.h",
+        "template": "public.h",
+        "variables": {
+          "name": "ocaml"
+        }
+      }]
+    }, {
+      "name": "TreeSitterOCamlQueries",
+      "files": [{
+        "filePath": "queries",
+        "sourceFilePath": "queries"
+      }, {
+        "filePath": "Query.swift",
+        "template": "Query.swift",
+        "scannedDirectoryPath": "queries"
+      }]
+    }]
+  }, {
+    "name": "ganezdragon/tree-sitter-perl",
+    "targets": [{
+      "name": "TreeSitterPerl",
+      "files": [{
+        "filePath": "src/parser.c",
+        "sourceFilePath": "src/parser.c"
+      }, {
+        "filePath": "src/scanner.cc",
+        "sourceFilePath": "src/scanner.cc"
+      }, {
+        "filePath": "src/tree_sitter",
+        "sourceFilePath": "src/tree_sitter"
+      }, {
+        "filePath": "include/public.h",
+        "template": "public.h",
+        "variables": {
+          "name": "perl"
+        }
+      }]
+    }]
+  }, {
+    "name": "alex-pinkus/tree-sitter-swift",
+    "runTreeSitterGenerate": true,
+    "targets": [{
+      "name": "TreeSitterSwift",
+      "files": [{
+        "filePath": "src/parser.c",
+        "sourceFilePath": "src/parser.c"
+      }, {
+        "filePath": "src/scanner.c",
+        "sourceFilePath": "src/scanner.c"
+      }, {
+        "filePath": "src/tree_sitter",
+        "sourceFilePath": "src/tree_sitter"
+      }, {
+        "filePath": "include/public.h",
+        "template": "public.h",
+        "variables": {
+          "name": "swift"
+        }
+      }]
+    }, {
+      "name": "TreeSitterSwiftQueries",
+      "files": [{
+        "filePath": "queries",
+        "sourceFilePath": "queries"
+      }, {
+        "filePath": "Query.swift",
+        "template": "Query.swift",
+        "scannedDirectoryPath": "queries"
+      }]
+    }]
+  }, {
+    "name": "tree-sitter/tree-sitter-typescript",
+    "targets": [{
+      "name": "TreeSitterTypeScript",
+      "files": [{
+        "filePath": "common/scanner.h",
+        "sourceFilePath": "common/scanner.h"
+      }, {
+        "filePath": "typescript/src/parser.c",
+        "sourceFilePath": "typescript/src/parser.c"
+      }, {
+        "filePath": "typescript/src/scanner.cc",
+        "sourceFilePath": "typescript/src/scanner.c"
+      }, {
+        "filePath": "typescript/src/tree_sitter",
+        "sourceFilePath": "typescript/src/tree_sitter"
+      }, {
+        "filePath": "include/public.h",
+        "template": "public.h",
+        "variables": {
+          "name": "typescript"
+        }
+      }]
+    }, {
+      "name": "TreeSitterTypeScriptQueries",
+      "files": [{
+        "filePath": "queries",
+        "sourceFilePath": "queries"
+      }, {
+        "filePath": "Query.swift",
+        "template": "Query.swift",
+        "scannedDirectoryPath": "queries"
+      }]
+    }]
+  }, {
+    "name": "tree-sitter/tree-sitter-typescript",
+    "targets": [{
+      "name": "TreeSitterTSX",
+      "files": [{
+        "filePath": "common/scanner.h",
+        "sourceFilePath": "common/scanner.h"
+      }, {
+        "filePath": "tsx/src/parser.c",
+        "sourceFilePath": "tsx/src/parser.c"
+      }, {
+        "filePath": "tsx/src/scanner.cc",
+        "sourceFilePath": "tsx/src/scanner.c"
+      }, {
+        "filePath": "tsx/src/tree_sitter",
+        "sourceFilePath": "tsx/src/tree_sitter"
+      }, {
+        "filePath": "include/public.h",
+        "template": "public.h",
+        "variables": {
+          "name": "tsx"
+        }
+      }]
+    }, {
+      "name": "TreeSitterTSXQueries",
+      "files": [{
+        "filePath": "queries",
+        "sourceFilePath": "queries"
+      }, {
+        "filePath": "Query.swift",
+        "template": "Query.swift",
+        "scannedDirectoryPath": "queries"
+      }]
+    }]
+  }, {
+    "name": "ikatyang/tree-sitter-yaml",
+    "targets": [{
+      "name": "TreeSitterYAML",
+      "files": [{
+        "filePath": "src/parser.c",
+        "sourceFilePath": "src/parser.c"
+      }, {
+        "filePath": "src/scanner.cc",
+        "sourceFilePath": "src/scanner.cc"
+      }, {
+        "filePath": "src/tree_sitter",
+        "sourceFilePath": "src/tree_sitter"
+      }, {
+        "filePath": "src/schema.generated.cc",
+        "sourceFilePath": "src/schema.generated.cc"
+      }, {
+        "filePath": "include/public.h",
+        "template": "public.h",
+        "variables": {
+          "name": "yaml"
+        }
+      }]
+    }]
+  }, {
+    "name": "nvim-treesitter/nvim-treesitter",
+    "targets": [{
+      "name": "TreeSitterMarkdownQueries",
+      "files": [{
+        "filePath": "queries/highlights.scm",
+        "sourceFilePath": "queries/markdown/highlights.scm"
+      }, {
+        "filePath": "queries/injections.scm",
+        "sourceFilePath": "queries/markdown/injections.scm"
+      }, {
+        "filePath": "Query.swift",
+        "template": "Query.swift",
+        "scannedDirectoryPath": "queries"
+      }]
+    }, {
+      "name": "TreeSitterPerlQueries",
+      "files": [{
+        "filePath": "queries/highlights.scm",
+        "sourceFilePath": "queries/perl/highlights.scm"
+      }, {
+        "filePath": "Query.swift",
+        "template": "Query.swift",
+        "scannedDirectoryPath": "queries"
+      }]
+    }, {
+      "name": "TreeSitterYAMLQueries",
+      "files": [{
+        "filePath": "queries/highlights.scm",
+        "sourceFilePath": "queries/yaml/highlights.scm"
+      }, {
+        "filePath": "Query.swift",
+        "template": "Query.swift",
+        "scannedDirectoryPath": "queries"
+      }]
+    }]
+  }]
+}

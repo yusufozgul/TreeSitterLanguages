@@ -1,7 +1,7 @@
 import Foundation
 
 public enum Query {
-    public static var highlightsJSXFileURL: URL {
+    public static var highlightsJsxFileURL: URL {
         return url(named: "highlights-jsx")
     }
 
